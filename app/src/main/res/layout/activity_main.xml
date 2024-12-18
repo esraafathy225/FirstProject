@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:id="@+id/btn_confirm"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="@string/hello"
+    android:textSize="24sp"
+    android:textAllCaps="false"
+    android:textColor="@color/red"
+    android:background="@color/teal_700"
+    android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hello"
+        android:text="Hello World"
+        android:textSize="24sp"
+        android:layout_above="@id/btn_confirm"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:layout_above="@id/btn_confirm"
+        android:layout_alignStart="@id/btn_confirm"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:layout_toEndOf="@id/btn_confirm"
+        android:layout_alignTop="@id/btn_confirm"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:layout_below="@id/btn_confirm"
+        android:layout_alignEnd="@id/btn_confirm"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:layout_toEndOf="@id/btn_confirm"
+        android:layout_alignTop="@id/btn_confirm"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:layout_toStartOf="@id/btn_confirm"
+        android:layout_alignBottom="@id/btn_confirm"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_location"
+        android:layout_toStartOf="@id/btn_confirm"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check me"/>
+</RelativeLayout>
